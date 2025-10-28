@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: student-result-backend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
