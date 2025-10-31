@@ -8,27 +8,27 @@
     <!-- Add Student -->
     <servlet>
         <servlet-name>AddStudentServlet</servlet-name>
-        <servlet-class>com.studentfolder.AddStudentServlet</servlet-class>
+        <servlet-class>com.students.AddStudentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddStudentServlet</servlet-name>
         <url-pattern>/addStudent</url-pattern>
     </servlet-mapping>
 
-    <!-- View Student -->
+    <!-- View Students -->
     <servlet>
         <servlet-name>ViewStudentServlet</servlet-name>
-        <servlet-class>com.studentfolder.ViewStudentServlet</servlet-class>
+        <servlet-class>com.students.ViewStudentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ViewStudentServlet</servlet-name>
-        <url-pattern>/viewStudent</url-pattern>
+        <url-pattern>/viewStudents</url-pattern>
     </servlet-mapping>
 
     <!-- Update Student -->
     <servlet>
         <servlet-name>UpdateStudentServlet</servlet-name>
-        <servlet-class>com.studentfolder.UpdateStudentServlet</servlet-class>
+        <servlet-class>com.students.UpdateStudentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UpdateStudentServlet</servlet-name>
@@ -38,7 +38,7 @@
     <!-- Delete Student -->
     <servlet>
         <servlet-name>DeleteStudentServlet</servlet-name>
-        <servlet-class>com.studentfolder.DeleteStudentServlet</servlet-class>
+        <servlet-class>com.students.DeleteStudentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>DeleteStudentServlet</servlet-name>
